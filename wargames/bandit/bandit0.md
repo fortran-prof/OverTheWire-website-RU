@@ -3,24 +3,24 @@ layout: default
 gamename: bandit
 level: 0
 ---
-Level Goal
+Цель Уровня
 ----------
-The goal of this level is for you to log into the game using SSH.
-The host to which you need to connect is
-**bandit.labs.overthewire.org**, on port 2220.
-The username is **bandit0** and the password is **bandit0**. Once
-logged in, go to the [Level 1][] page to find out how to beat Level
-1.
+Цель этого уровня - залогиниться в игру через SSH. Хост, к которому нужно подключиться, **bandit.labs.overthewire.org**,
+а порт - **2220**. Ваш username - **bandit0**, а пароль - **bandit0**. Сразу как залогинитесь, переходите
+к [Уровню 1][Level 1], чтобы узнать, что делать дальше.
 
-Commands you may need to solve this level
------------------------------------------
+Команды, которые могут потребоваться для прохождения
+----------------------------------------------------
 [ssh](https://man7.org/linux/man-pages/man1/ssh.1.html)
 
-Helpful Reading Material
-------------------------
-- [Secure Shell (SSH) on Wikipedia][]
-- [How to use SSH on wikiHow][]
+Полезные материалы
+------------------
+
+- [SSH на википедии][Secure Shell (SSH) on Wikipedia]
+- [Как использовать SSH на wikiHow][How to use SSH on wikiHow]
 
 [Level 1]: wargames/bandit/bandit1.html
-[Secure Shell (SSH) on Wikipedia]: http://en.wikipedia.org/wiki/Secure_Shell
+
+[Secure Shell (SSH) on Wikipedia]: https://ru.wikipedia.org/wiki/SSH
+
 [How to use SSH on wikiHow]: http://www.wikihow.com/Use-SSH

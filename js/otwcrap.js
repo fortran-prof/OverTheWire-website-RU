@@ -34,7 +34,7 @@ function renderLevelsMenu(name) {
 	
 	var newHTML = "";
 	if("host" in data[name] && "port" in data[name]) {
-	    newHTML += "<div id='sshinfo'><sh>SSH Information</sh><br>Host: "+data[name].host+"<br>Port: "+data[name].port+"</div>";
+	    newHTML += "<div id='sshinfo'><sh>Параметры SSH</sh><br>Host: "+data[name].host+"<br>Port: "+data[name].port+"</div>";
 	}
 	newHTML += "<ul><li><a href=\"wargames/"+name+"\"><sh>"+capitaliseFirstLetter(name)+"</sh></a></li>";
 

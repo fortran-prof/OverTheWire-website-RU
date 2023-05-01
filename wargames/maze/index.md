@@ -1,7 +1,7 @@
 ---
 layout: default
 gamename: maze
-title: Maze
+title: Лабиринт
 ---
 
 Maze
