@@ -1,7 +1,7 @@
 ---
 layout: default
 gamename: krypton
-title: Krypton
+title: Криптон
 ---
 
 Krypton

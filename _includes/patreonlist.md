@@ -40,7 +40,7 @@
 		{ 'name': '"Fancy" Support Level', 'container': '#container-fancy', 'parent': '#parent-fancy', 'template': '#item-fancy' },
     ];
 
-    fetch("/patreon/patrons.json").then(response => response.json()).then(function(data) {
+    fetch("patreon/patrons.json").then(response => response.json()).then(function(data) {
         console.log(data);
 
 		templates.forEach(function(te) {

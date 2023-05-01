@@ -1,59 +1,56 @@
 ---
 layout: default
 gamename: bandit
-title: Bandit
+title: Бандит
 ---
 
-Bandit
+Бандит
 ======
 
-The Bandit wargame is aimed at absolute beginners. It will teach the
-basics needed to be able to play other wargames. **If you notice
-something essential is missing or have ideas for new levels, please let
-us know!**
+Игра "Бандит" рассчитана на абсолютных новичков. Она учит базовым навыкам, которые понадобятся, чтобы играть в остальные
+игры.
+**Если вы решите, что в этой игре чего-то не хватает или у вас появятся идеи для новых уровней, пожалуйста, дайте нам
+знать!**
 
-Note for beginners
-------------------
+Примечание для новичков
+-----------------------
 
-This game, like most other games, is organised in levels. You start at
-Level 0 and try to "beat" or "finish" it. Finishing a level results in
-information on how to start the next level. The pages on this website
-for "Level <X\>" contain information on how to start level X from the
-previous level. E.g. The page for [Level 1][] has information on how to
-gain access from [Level 0][] to [Level 1][]. All levels in this game
-have a page on this website, and they are all linked to from the
-sidemenu on the left of this page.
+Эта игра, как и большинство других игр, разбита на уровни. Вы начинаете с "Уровня 0" и пытаетесь дойти до финиша.
+В конце каждого уровня будет информация, как начать новый уровень. Страницы данного сайта для очередного "Уровня X"
+содержат лишь информацию, как начать "Уровень X" после завершения предыдущего уровня. Например,
+страница [Уровень 1][Level 1] содержит информацию о том, как с [Уровня 0][Level 0] перейти к [Уровню 1][Level 1]. Все
+уровни игры имеют свою страницу на сайте, ссылки на них вы можете видеть в левом меню.
 
-You will encounter many situations in which you have no idea what you
-are supposed to do. **Don't panic! Don't give up!** The purpose of this
-game is for you to learn the basics. Part of learning the basics, is
-reading a lot of new information. If you've never used the command line
-before, a good first read is this [introduction to user commands][].
+Множество раз вы столкнетесь с ситуацией, когда вы будете без понятия, что нужно делать. **Без паники! Не сдавайтесь!**
+Цель этой игры уяснить основы. Часть этого процесса - это чтение множества новой информации. Если ранее вы никогда
+не использовали командную строку, начните с [введения в пользовательские команды][introduction to user commands].
 
-There are several things you can try when you are unsure how to
-continue:
+Есть несколько вещей, который стоит попробовать сделать, в случае затыка:
 
--   First, if you know a command, but don't know how to use it, try the
-    **manual** ([man page][]) by entering **man <command\>**.
-    For example, **man ls** to learn about the "ls" command.
-    The "man" command also has a manual, try it!
-    When using **man**, press `q` to quit
-    (you can also use `/` and `n` and `N` to search).
--   Second, if there is no man page, the command might be a **shell
-    built-in**. In that case use the "**help <X\>**" command. E.g. help
-    cd
--   Also, your favorite **search-engine** is your friend. Learn how to
-    use it! I recommend [Google][].
--   Lastly, if you are still stuck, you can [join us via chat][]
+- Во-первых, если вы знаете команду, но не знаете как ее использовать, попробуйте открыть [**мануал**][man page],
+  введя в командной строке команду **man <интересующая вас команда\>**. Например, **man ls** даст вам справку по
+  команде "ls". Сама команда "man" также имеет свой мануал, убедитесь сами! После использованрия **man**, нажмите `q`
+  для выхода (также вы можете использовать `/`, и `n`, и `N` для поиска).
+- Во-вторых, если у команды нет страницы в man, то команда вероятнее всего относится к **встроенным в shell**.
+  В этом случае используейте команду "**help <X\>**". Например, "help cd"
+- Также, ваш любимый **поисковик** вам в помощь. Изучите как с ним работать! Я рекумендую [Google][].
+- Наконец, если вы все еще в ступоре, вы можете [присоединиться к нашему чату][join us via chat]
 
-You're ready to start! Begin with [Level 0][], linked at the left of
-this page. Good luck!
+Теперь вы готовы! Начните с [Уровня 0][Level 0]. Все ссылки слева. Удачи!
 
-**Note for VMs:** You may fail to connect to overthewire.org via SSH with a "*broken pipe error*” when the network adapter for the VM is configured to use NAT mode. Adding the setting **`IPQoS throughput`** to `/etc/ssh/ssh_config` should resolve the issue. If this does not solve your issue, the only option then is to change the adapter to Bridged mode. 
+**Примечание насчет виртуальных машин:** Вероятно, у вас не получится поключиться к overthewire.org через SSH, и вы
+получите ошибку "*broken pipe*", если адаптер вашей виртуальной машины будет работать в NAT-режиме. Добавление настройки
+**`IPQoS throughput`** в `/etc/ssh/ssh_config` должен решить эту проблему. Если это не поможет, то придется сменить
+режим работы адаптера на Bridge.
 
-  [Level 1]: /wargames/bandit/bandit1.html
-  [Level 0]: /wargames/bandit/bandit0.html
-  [introduction to user commands]: https://man7.org/linux/man-pages/man1/intro.1.html
-  [man page]: http://en.wikipedia.org/wiki/Man_page
-  [Google]: http://www.google.com
-  [join us via chat]: /information/chat.html
+[Level 1]: wargames/bandit/bandit1.html
+
+[Level 0]: wargames/bandit/bandit0.html
+
+[introduction to user commands]: https://man7.org/linux/man-pages/man1/intro.1.html
+
+[man page]: http://en.wikipedia.org/wiki/Man_page
+
+[Google]: http://www.google.com
+
+[join us via chat]: information/chat.html

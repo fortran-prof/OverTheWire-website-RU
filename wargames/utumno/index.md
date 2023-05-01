@@ -1,7 +1,7 @@
 ---
 layout: default
 gamename: utumno
-title: Utumno
+title: Утумно
 ---
 
 Utumno

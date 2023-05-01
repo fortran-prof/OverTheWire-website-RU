@@ -7,5 +7,5 @@
 // format: YYYYMMDDHHMM
 
 updatedmarkers = {
-	"/information/donate.html": 201901072331,
+	"information/donate.html": 201901072331,
 };

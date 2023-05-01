@@ -1,7 +1,7 @@
 ---
 layout: default
 gamename: behemoth
-title: Behemoth
+title: Бегемот
 ---
 
 Behemoth

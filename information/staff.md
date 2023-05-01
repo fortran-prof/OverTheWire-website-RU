@@ -15,4 +15,4 @@ money maintaining the infrastructure and creating new games.
 
 If you need to, you may [contact us through chat].
 
-[contact us through chat]: /information/chat.html
+[contact us through chat]: information/chat.html

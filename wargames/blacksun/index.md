@@ -47,5 +47,5 @@ understand:
 A list of suggested reading material can be found [here][readingmaterial]
 
   [andrewg]: mailto:andrewg@felinemenace.org
-  [here]: /wargames/vortex/
+  [here]: wargames/vortex/
   [readingmaterial]: reading_material.html

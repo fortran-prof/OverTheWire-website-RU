@@ -1,7 +1,7 @@
 ---
 layout: default
 gamename: narnia
-title: Narnia
+title: Нарния
 ---
 
 Narnia

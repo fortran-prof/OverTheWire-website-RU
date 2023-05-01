@@ -64,5 +64,5 @@ not just bandit. If you see another key, then you are most likely being man-in-t
 
 
 [Docker]: https://www.docker.com/
-[bandit]: /wargames/bandit
+[bandit]: wargames/bandit
 [User data]: userdata.html
