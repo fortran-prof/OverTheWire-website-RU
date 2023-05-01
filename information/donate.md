@@ -15,13 +15,13 @@ However, PayPal donations are also an option.
 
 <a href="https://www.patreon.com/join/StevenVanAcker">
 <div class="donation patreon">
-<img src="/img/patreon.png">
+<img src="img/patreon.png">
 </div>
 </a>
 
 <a href="https://paypal.me/overthewire">
 <div class="donation paypal">
-<img src="/img/paypal.png">
+<img src="img/paypal.png">
 </div>
 </a>
 
@@ -35,5 +35,5 @@ Huge Thanks to Our Patrons
 
 {% include patreonlist.md %}
 
-[contact us]: /information/chat.html
+[contact us]: information/chat.html
 

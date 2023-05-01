@@ -39,5 +39,5 @@ combinatorial analysis.**
 
 **Contact : [aton at packetdropped dot org][]**
 
-[contact us via chat]: /information/chat.html
+[contact us via chat]: information/chat.html
 [aton at packetdropped dot org]: mailto:aton@packetdropped.org

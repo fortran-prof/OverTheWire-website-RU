@@ -51,9 +51,9 @@ this page. Good luck!
 
 **Note for VMs:** You may fail to connect to overthewire.org via SSH with a "*broken pipe error*” when the network adapter for the VM is configured to use NAT mode. Adding the setting **`IPQoS throughput`** to `/etc/ssh/ssh_config` should resolve the issue. If this does not solve your issue, the only option then is to change the adapter to Bridged mode. 
 
-  [Level 1]: /wargames/bandit/bandit1.html
-  [Level 0]: /wargames/bandit/bandit0.html
+  [Level 1]: wargames/bandit/bandit1.html
+  [Level 0]: wargames/bandit/bandit0.html
   [introduction to user commands]: https://man7.org/linux/man-pages/man1/intro.1.html
   [man page]: http://en.wikipedia.org/wiki/Man_page
   [Google]: http://www.google.com
-  [join us via chat]: /information/chat.html
+  [join us via chat]: information/chat.html

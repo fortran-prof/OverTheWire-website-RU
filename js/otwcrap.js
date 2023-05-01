@@ -36,12 +36,12 @@ function renderLevelsMenu(name) {
 	if("host" in data[name] && "port" in data[name]) {
 	    newHTML += "<div id='sshinfo'><sh>SSH Information</sh><br>Host: "+data[name].host+"<br>Port: "+data[name].port+"</div>";
 	}
-	newHTML += "<ul><li><a href=\"/wargames/"+name+"\"><sh>"+capitaliseFirstLetter(name)+"</sh></a></li>";
+	newHTML += "<ul><li><a href=\"wargames/"+name+"\"><sh>"+capitaliseFirstLetter(name)+"</sh></a></li>";
 
 	for(var i = 0; i <= data[name].lastlevel; i++) {
 	    var url = "";
 	    var urlname = "";
-	    url = "/wargames/"+name+"/"+name+i+".html";
+	    url = "wargames/"+name+"/"+name+i+".html";
 	    if(!("specialNumbering" in data[name])) {
 		if(i == 0) {
 		    urlname = "Level "+i;
@@ -62,7 +62,7 @@ function renderLevelsMenu(name) {
 	newHTML += "</ul>";
         newDiv.innerHTML = newHTML;
     };
-    oReq.open("GET", "/games.json", true);
+    oReq.open("GET", "games.json", true);
     oReq.send();
 }
 
@@ -86,7 +86,7 @@ function renderLevelTitle(name, level) {
         // also set the webpage title
         document.title += ": " + title.replace('&rarr;', '\u2192');
     };
-    oReq.open("GET", "/games.json", true);
+    oReq.open("GET", "games.json", true);
     oReq.send();
 }
 
