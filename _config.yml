@@ -1,5 +1,6 @@
 markdown: kramdown
 
 # hint from https://stackoverflow.com/questions/33634520/jekyll-on-github-pages-not-rendering-css/55080320#55080320
+domain: fortran-prof.github.io
+url: https://fortran-prof.github.io
 baseurl: /OverTheWire-website-RU/
-url: http://fortran-prof.github.io
